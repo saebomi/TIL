@@ -65,3 +65,6 @@
   - 외부 API 요청(REST API 등) <br>
   - 라이브러리 사용(D3, Video.js 등) <br>
   - setInterval, setTimeout 을 사용하여 등록한 작업들 clear하기<br>
+- 언마운트 시 하는 작업 <br>
+  - setInterval, setTimeout을 사용하여 등록한 작업들 clear하기 <br>
+  - 라이브러리 인스턴스 제거 <br>
