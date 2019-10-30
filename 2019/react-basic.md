@@ -68,3 +68,7 @@
 - 언마운트 시 하는 작업 <br>
   - setInterval, setTimeout을 사용하여 등록한 작업들 clear하기 <br>
   - 라이브러리 인스턴스 제거 <br>
+- useEffect 안에서 사용하는 상태 또는 props가 있다면, useEffect의 deps에 넣어주어야 하는게 규칙<br>
+  - 그렇지 않으면 useEffect에 등록한 함수가 실행될 때 최신 props/상태를 가르키지 않음
+
+### useMemo 를 사용하여 연산한 값 재사용하기
