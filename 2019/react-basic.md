@@ -88,8 +88,7 @@
 - 컴포넌트의 상태 업데이트 로직을 컴포넌트에서 분리 가능
 - useReducer <br>
   - 현재 상태와 액션 객체를 파라미터로 받아와서 새로운 상태를 반환해주는 함수<br>
-  - > function reducer(state, action) {
-  // 새로운 상태를 만드는 로직
-  // const nextState = ...
-  return nextState;
-}
+  - > function reducer(state, action) {<br>
+  // 새로운 상태를 만드는 로직<br>
+  // const nextState = ...<br>
+  return nextState; }<br>
