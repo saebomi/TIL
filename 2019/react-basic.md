@@ -79,3 +79,7 @@
 ### useCallback 을 사용하여 함수 재사용하기
 - useCallback <br>
   - 특정 함수를 새로 만들지 않고 재사용하고 싶을때 사용
+
+### React.memo 를 사용한 컴포넌트 리렌더링 방지
+- 컴포넌트에서 리렌더링이 필요한 상황에서만 리렌더링을 하도록 설정
+- useCallback, useMemo, React.memo는 컴포넌트의 성능을 실제로 개선할 수 있는 상황에서만..
