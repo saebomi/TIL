@@ -83,3 +83,13 @@
 ### React.memo 를 사용한 컴포넌트 리렌더링 방지
 - 컴포넌트에서 리렌더링이 필요한 상황에서만 리렌더링을 하도록 설정
 - useCallback, useMemo, React.memo는 컴포넌트의 성능을 실제로 개선할 수 있는 상황에서만..
+
+### useReducer 를 사용하여 상태 업데이트 로직 분리하기
+- 컴포넌트의 상태 업데이트 로직을 컴포넌트에서 분리 가능
+- useReducer <br>
+  - 현재 상태와 액션 객체를 파라미터로 받아와서 새로운 상태를 반환해주는 함수<br>
+  - > function reducer(state, action) {
+  // 새로운 상태를 만드는 로직
+  // const nextState = ...
+  return nextState;
+}
