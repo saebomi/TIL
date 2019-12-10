@@ -17,8 +17,8 @@
       margin-right: -10px
 ```
 <br>
-- Scss: <br>
-```css
+ - Scss: <br>
+ ```css
 .list {
   width: 100px;
   float: left;
@@ -31,4 +31,3 @@
   }
 }
 ```
-<br>
