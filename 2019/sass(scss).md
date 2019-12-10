@@ -16,7 +16,6 @@
     &:last-child
       margin-right: -10px
 ```
-<br>
  - Scss: <br>
  ```css
 .list {
