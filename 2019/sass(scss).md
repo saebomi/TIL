@@ -1,4 +1,4 @@
-# Sass(SCSS) 완전 정복!<br>
+# Sass(SCSS) 정리<br>
 
 ## CSS Preprocessor
 - css 전처리기
