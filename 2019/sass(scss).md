@@ -48,3 +48,14 @@
 * 여러 줄
     * 주석 */
 ```
+
+## 데이터 종류(Data Types)
+데이터 | 설명 | 예시
+---|:---:|---:
+`Numbers` | 숫자 | `1, .82, 20px, 2em…`
+`Strings` | 문자 | `bold, relative, "/images/a.png", "dotum"`
+`Colors` | 색상 표현 | `red, blue, #FFFF00, rgba(255,0,0,.5)`
+`Booleans` | 논리 | `true, false`
+`Nulls` | 아무것도 없음 | `null`
+`Lists` | 공백이나 ,로 구분된 값의 목록 | `(apple, orange, banana), apple orange`
+`Maps` | Lists와 유사하나 값이 Key: Value 형태 | `(apple: a, orange: o, banana: b)`
