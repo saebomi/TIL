@@ -61,8 +61,8 @@
 `Maps` | Lists와 유사하나 값이 Key: Value 형태 | `(apple: a, orange: o, banana: b)`
 
 ## 특이사항
-- Numbers: 숫자에 단위가 있거나 없습니다.
-- Strings: 문자에 따옴표가 있거나 없습니다.
-- Nulls: 속성값으로 null이 사용되면 컴파일하지 않습니다.
-- Lists: ()를 붙이거나 붙이지 않습니다.
-- Maps: ()를 꼭 붙여야 합니다.
+- Numbers: 숫자에 단위가 있거나 없음
+- Strings: 문자에 따옴표가 있거나 없음
+- Nulls: 속성값으로 null이 사용되면 컴파일하지 않음
+- Lists: ()를 붙이거나 붙이지 않음
+- Maps: ()를 꼭 붙여야 함
