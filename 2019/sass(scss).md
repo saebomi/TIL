@@ -66,3 +66,17 @@
 - Nulls: 속성값으로 null이 사용되면 컴파일하지 않음
 - Lists: ()를 붙이거나 붙이지 않음
 - Maps: ()를 꼭 붙여야 함
+
+## 중첩
+- Scss: <br>
+ ```css
+.section {
+  width: 100%;
+  .list {
+    padding: 20px;
+    li {
+      float: left;
+    }
+  }
+}
+```
