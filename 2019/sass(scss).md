@@ -83,3 +83,19 @@
 
 ## Ampersand (상위 선택자 참조)
 - 중첩 안에서 & 키워드는 상위(부모) 선택자를 참조하여 치환
+- Scss : <br>
+ ```css
+.btn {
+  position: absolute;
+  &.active {
+    color: red;
+  }
+}
+
+.list {
+  li {
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  ```
