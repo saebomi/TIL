@@ -100,3 +100,22 @@
     }
   }
   ```
+
+## @at-root 
+- 중첩 벗어나기
+- 중첩 안에서 생성하되 중첩 밖에서 사용해야하는 경우에 유용
+- Scss : <br>
+ ```css
+.list {
+  $w : 100px;
+  $h : 50px;
+  li{width:$w;height:$h;}
+  @at-root .box{width:$w;height:$h;}
+}
+  ```
+- css : <br>
+ ```css
+.list li{width:100px; height:50px;}
+.box{width:100px; height:50px;}
+}
+  ```
