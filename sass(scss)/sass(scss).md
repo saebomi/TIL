@@ -109,13 +109,24 @@
 .list {
   $w : 100px;
   $h : 50px;
-  li{width:$w;height:$h;}
-  @at-root .box{width:$w;height:$h;}
+  li {width:$w;height:$h;}
+  @at-root .box {width:$w;height:$h;}
 }
   ```
 - css : <br>
  ```css
-.list li{width:100px; height:50px;}
-.box{width:100px; height:50px;}
+.list li {width:100px; height:50px;}
+.box {width:100px; height:50px;}
+}
+  ```
+
+## 중첩된 속성 정의
+- font-, margin- 등과 같이 동일한 네임스페이스를 가지는 속성들을 다음과 같이 사용
+- scss : <br>
+ ```css
+.box{
+ font: {weight:bold; size:10px; family:sans-serif;};
+ margin: {top:10px; left:20px;};
+ padding: {bottom:40px; right:30px;};
 }
   ```
