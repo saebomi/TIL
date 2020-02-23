@@ -1,1 +1,1 @@
-# vueJS
+# vue.js
