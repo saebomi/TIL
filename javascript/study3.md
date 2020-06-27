@@ -76,3 +76,25 @@ function dist(p, q){
     return Math.sqrt(dx*dx+dy*dy);
 }
 ```
+
+### 4.2.6 함수의 실행흐름
+- 호출한 코드에 있는 인수가 함수 정의문의 인자에 대입된다.
+- 함수 정의문의 중괄호 안에 작성된 프로그램이 순차적으로 실행된다.
+- return문이 실행되면 호출한 코드로 돌아간다. return 문의 값은 함수의 반환값이 된다.
+- return문이 실행되지 않은 상태로 마지막 문장이 실행되면, 호출한 코드로 돌아간 후에 undefined가 함수의 반환값이 된다.
+
+### 4.2.7 함수 선언문의 끌어올림
+```
+console.log(square(5)); // 문제없이 동작함
+function square(x) { return x * x; } 
+}
+```
+
+### 4.2.8 값으로서의 함수
+### 4.2.9 참조에 의한 호출관 값에 의한 호출
+```
+function add1(x) {return x = x+1; }
+var a = 3;
+var b = add1(a);
+console.log("a= "+a+", b= "+b); 
+```
