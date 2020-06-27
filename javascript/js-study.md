@@ -48,9 +48,9 @@ ex) console.log(x);
 ### 3.1.6 예약어
 - 자바스크립트 문법을 규정짓기 위해 자바스크립트 언어 사양에서 사용하는 특수한 키워드
 - ES6의 예약어
-|break|case|catch|class|const|continue|
-|debugger|default|delete|do|else|export|
-|extends|false|finally|for|function|if|
-|import|in|intanceof|new|null|return|
-|super|switch|this|throw|true|try|
-|typeof|var|void|while|with|yield|
+| break | case | catch | class | const | continue |
+| debugger | default | delete | do | else | export |
+| extends | false | finally | for | function | if |
+| import | in | intanceof | new | null | return |
+| super | switch | this | throw | true | try |
+| typeof | var | void | while | with | yield |
