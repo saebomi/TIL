@@ -2,7 +2,7 @@
 [모던 자바스크립트 입문](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791160504439&orderClick=LAG&Kc=, "link") 으로 공부중입니다.
 
 ## 2장 프로그램의 작성법과 실행법
-## 2.4 프로그램 작성법
+### 2.4 프로그램 작성법
 ### 2.4.1 문자코드
 - 유니코드 문자로 작성
 
@@ -23,7 +23,7 @@
 * * *
 
 ## 3장 변수와 값
-## 3.1 변수
+### 3.1 변수
 ### 3.1.1 변수
 - 변수 : 컴퓨터의 메모리에 일정한 크기의 영역으로 생성
 
@@ -47,3 +47,10 @@ ex) console.log(x);
 
 ### 3.1.6 예약어
 - 자바스크립트 문법을 규정짓기 위해 자바스크립트 언어 사양에서 사용하는 특수한 키워드
+- ES6의 예약어
+|break|case|catch|class|const|continue|
+|debugger|default|delete|do|else|export|
+|extends|false|finally|for|function|if|
+|import|in|intanceof|new|null|return|
+|super|switch|this|throw|true|try|
+|typeof|var|void|while|with|yield|
