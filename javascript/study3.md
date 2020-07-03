@@ -98,3 +98,43 @@ var a = 3;
 var b = add1(a);
 console.log("a= "+a+", b= "+b); 
 ```
+
+### 4.2.10 변수의 유효범위
+- 유효범위 : 변수에 접근할 수 있는 범위 (어휘적 범위, 동적범위)
+- 전역변수와 지역변수의 유효범위(p.104 예제참조)
+- 변수의 충돌 : 전역변수이름과 지역변수이름이 같아지면 두 변수가 충돌함
+```
+var a = "global";
+function f(){
+    var a = "local";
+    console.log(a);  // local
+    return a;
+}
+f();
+console.log(a);      // global
+```
+
+### 4.2.11 블록 유효 범위 let과 const
+- let, const > ES6부터 추가된 변수 선언자. 모두가 '블록 유효범위'를 갖는 변수를 선언함.
+- let : 변수 선언, const : 한번만 할당할 수 있는 상수 선언
+- let 선언자
+var로 선언한 변수와 차이점 : let으로 선언한 변수의 유효범위는 블록 안
+```
+let x = "outer x";
+{
+    let x = "inner x";  
+    let y = "inner y";
+    console.log(x); // inner x
+    console.log(y); // inner y
+}
+console.log(x); // outer x
+console.log(y); // y is not defined
+```
+
+- const 연산자
+: let문으로 선언한 변수처럼 동작하지만, 반드시 초기화해야 한다는 차이점이 있음
+```
+const origin = {x:1, y:2};
+origin.x = 3;
+console.log(origin);
+```
